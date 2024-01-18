@@ -1,4 +1,9 @@
 {
-  "minMuleVersion": "4.3.0",
-  "runtimeProduct": "MULE_EE"
+  "minMuleVersion": "4.4.0",
+  "secureProperties": [
+      "property.key",
+      "anypoint.platform.client_secret",
+      "loki.password",
+      "secure::amq.clientSecret"
+  ]
 }
